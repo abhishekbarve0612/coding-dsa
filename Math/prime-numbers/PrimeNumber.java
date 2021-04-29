@@ -29,6 +29,7 @@ public class PrimeNumber {
   public static void main(String[] args) {
     Scanner takeInput = new Scanner(System.in);
     int number = takeInput.nextInt();
+    takeInput.close();
     System.out.println(isPrime(number));
     boolean sieve[] = new boolean[1001];
     Arrays.fill(sieve, true);

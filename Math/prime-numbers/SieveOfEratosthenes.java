@@ -18,6 +18,7 @@ public class SieveOfEratosthenes {
   public static void main(String[] args) {
     Scanner takeInput = new Scanner(System.in);
     int number = takeInput.nextInt();
+    takeInput.close();
     boolean sieve[] = new boolean[number + 1];
     Arrays.fill(sieve, true);
     sieve[1] =false;

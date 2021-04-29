@@ -1,5 +1,8 @@
 {
   "java.project.sourcePaths": [
-    "Math/prime-numbers"
+    "Math/prime-numbers",
+    "Math/gcd-and-lcm",
+    "Math/gcd",
+    "Math/lcm-and-gcd"
   ]
 }
